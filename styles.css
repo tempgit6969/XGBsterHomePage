@@ -57,6 +57,20 @@ body {
     border-radius: 0 0 15px 15px;
 }
 
+.backuplinks a{
+    background: rgba(80, 79, 79, 0.6);
+    color: white;
+    text-decoration: none;
+    
+}
+
+.backuplinks a:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #121212;
+    text-decoration: underline;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
 /* Background Images */
 .card:nth-child(1) { background-image: url('resources/hentai00125.gif'); }
 .card:nth-child(2) { background-image: url('resources/123.gif'); }
